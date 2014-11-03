@@ -74,27 +74,27 @@ if exists('g:haskell_enable_pattern_synonyms')
   syn keyword haskellPatternSynonyms pattern
 endif
 
-highlight def link haskellBottom Macro
-highlight def link haskellBlockKeywords Structure
-highlight def link haskellStandaloneDerivingKeywords Structure
-highlight def link haskellIdentifier Identifier
-highlight def link haskellImportKeywords Structure
-highlight def link haskellForeignKeywords Structure
-highlight def link haskellStructure Structure
-highlight def link haskellStatement Statement
-highlight def link haskellConditional Conditional
-highlight def link haskellNumber Number
-highlight def link haskellFloat Float
-highlight def link haskellDelimiter Delimiter
-highlight def link haskellInfix PreProc
-highlight def link haskellOperators Operator
-highlight def link haskellDot Operator
-highlight def link haskellType Include
-highlight def link haskellLineComment Comment
-highlight def link haskellBlockComment Comment
-highlight def link haskellString String
-highlight def link haskellChar String
-highlight def link haskellBacktick Operator
+highlight def link haskellBottom                     Macro
+highlight def link haskellBlockKeywords              Structure
+highlight def link haskellStandaloneDerivingKeywords Identifier
+highlight def link haskellIdentifier                 Identifier
+highlight def link haskellImportKeywords             Structure
+highlight def link haskellForeignKeywords            Structure
+highlight def link haskellStructure                  Structure
+highlight def link haskellStatement                  Statement
+highlight def link haskellConditional                Conditional
+highlight def link haskellNumber                     Number
+highlight def link haskellFloat                      Float
+highlight def link haskellDelimiter                  Operator
+highlight def link haskellInfix                      Operator
+highlight def link haskellOperators                  Operator
+highlight def link haskellDot                        Operator
+highlight def link haskellType                       Identifier
+highlight def link haskellLineComment                Comment
+highlight def link haskellBlockComment               Comment
+highlight def link haskellString                     String
+highlight def link haskellChar                       String
+highlight def link haskellBacktick                   Operator
 
 if exists('g:haskell_enable_quantification')
   highlight def link haskellForall Operator
